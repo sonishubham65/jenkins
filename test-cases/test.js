@@ -9,7 +9,6 @@ describe("Testing account API", () => {
         it("1. Validation", (done) => {
             chai.request(server)
                 .get("/").then(response => {
-                    console.log(process.env)
                     expect(response.statusCode).to.equal(200);
                     expect(response.body).to.be.an('object').to.contain.all.keys('success', 'message');
                     expect(response.body.message).to.be.a("string");
