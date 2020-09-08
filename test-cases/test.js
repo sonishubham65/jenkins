@@ -4,9 +4,9 @@ chai.use(chaiHttp);
 let server = require('../app');
 var expect = chai.expect;
 
-describe("Testing account API", () => {
-    context('Signup:', () => {
-        it("1. Validation", (done) => {
+describe("Testing basic api", () => {
+    context('Get:/:', () => {
+        it("1. First Hit", (done) => {
             chai.request(server)
                 .get("/").then(response => {
                     expect(response.statusCode).to.equal(200);
