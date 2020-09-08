@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "SET mode=production&pm2 start app.js",
+    "stop": "pm2 stop app.js",
     "dev": "SET mode=development&nodemon app.js",
     "test": "SET mode=test&mocha test-cases --timeout 15000 --recursive"
   },
