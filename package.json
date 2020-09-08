@@ -6,7 +6,7 @@
     "start": "SET mode=production&pm2 start app.js",
     "stop": "pm2 stop app.js",
     "dev": "SET mode=development&nodemon app.js",
-    "test": "SET mode=test&CI=true&mocha test-cases --timeout 15000 --recursive --exit"
+    "test": "SET mode=test&mocha test-cases --timeout 15000 --recursive --exit"
   },
   "dependencies": {
     "chai": "^4.2.0",
