@@ -39,6 +39,6 @@ app.use(function (err, req, res, next) {
   res.render('error');
 });
 app.listen(process.env.port, function () {
-  console.log("Started..");
+  console.log("Started...");
 })
 module.exports = app;
