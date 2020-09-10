@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "SET mode=production&pm2 start app.js",
-    "stop": "pm2 stop app.js",
+    "stop": "pm2 delete app.js",
     "dev": "SET mode=development&nodemon app.js",
     "testT": "SET mode=test&mocha test-cases/true.js --timeout 15000 --exit",
     "testF": "SET mode=test&mocha test-cases/false.js --timeout 15000 --exit"
