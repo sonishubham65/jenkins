@@ -12,7 +12,7 @@ describe("Testing basic api", () => {
                     expect(response.statusCode).to.equal(200);
                     expect(response.body).to.be.an('object').to.contain.all.keys('success', 'message');
                     expect(response.body.message).to.be.a("string");
-                    expect(response.body.success).to.equal(5);
+                    expect(response.body.success).to.equal(4);
                     done();
                 }).catch(err => {
                     done(err)
