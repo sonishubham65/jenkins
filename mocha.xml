@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0900" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-09-10T09:06:27" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing basic api" timestamp="2020-09-10T09:06:27" tests="0" file="C:\Users\subhamsoni\docker\jenkins\test-cases\true.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Get:/:" timestamp="2020-09-10T09:06:27" tests="1" file="C:\Users\subhamsoni\docker\jenkins\test-cases\true.js" time="0.0900" failures="0">
+    <testcase name="Testing basic api Get:/: 1. First Hit" time="0.0900" classname="1. First Hit">
+    </testcase>
+  </testsuite>
+</testsuites>
